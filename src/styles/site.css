@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.logo-font {
+  font-family: 'Bungee Shade', cursive;
+}
+
+.Logo {
+  /* background-image: url('./hero.jpg'); */
+}
