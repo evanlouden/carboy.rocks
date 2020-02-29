@@ -10,9 +10,25 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `shows`,
+        path: `${__dirname}/src/data/shows`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `bios`,
+        path: `${__dirname}/src/data/bios`
+      }
+    },
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-csv`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,

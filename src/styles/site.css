@@ -4,10 +4,14 @@
 
 @tailwind utilities;
 
+body {
+  background-color: black;
+}
+
 .logo-font {
   font-family: 'Bungee Shade', cursive;
 }
 
-.Logo {
-  /* background-image: url('./hero.jpg'); */
+.Hero {
+  background-image: url('../images/hero.jpg');
 }

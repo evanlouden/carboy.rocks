@@ -1,31 +1,56 @@
 import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import Img from "gatsby-image"
 import Layout from "../components/layout"
-import ShowRow from "../components/show-row"
+import Row from "../components/show/row"
 import SEO from "../components/seo"
 
-export const query = graphql`
-  query {
-    fileName: file(relativePath: { eq: "images/myimage.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 400, maxHeight: 250) {
-          ...GatsbyImageSharpFluid
+const Shows = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: {eq: "trumpet-player.jpg"}) {
+        childImageSharp {
+          fluid(maxWidth: 500) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      allShowsCsv {
+        edges {
+          node {
+            id
+            venue
+            url
+            id
+            date
+            city
+          }
         }
       }
     }
-  }
-`
+  `)
 
-const Shows = () => (
-  <Layout>
-    <SEO title="Shows" />
-    <div className="mx-auto w-full sm:w-2/3">
-      <div className="h-32 sm:h-64 mb-8 border-white border-solid border bg-cover bg-center text-center">
-        <ShowRow date="14 Jan" venue="Great Scott" city="Allston, MA"/>
-        <ShowRow date="20 Jan" venue="Brighton Music Hall" city="Brighton, MA"/>
-        <ShowRow date="10 Feb" venue="Mighty Squirrel Brewing" city="Waltham, MA"/>
+  const showsData = data.allShowsCsv.edges
+
+  return (
+    <Layout>
+      <SEO title="Shows" />
+      <div className="mx-auto w-full sm:w-2/3 md:w-1/2 border-white border">
+        <Img className="picture" fluid={data.file.childImageSharp.fluid} />
       </div>
-    </div>
-  </Layout>
-)
+      <table className="mx-auto w-full sm:w-2/3 md:w-1/2">
+        <tbody>
+        {
+          showsData.map((show) => {
+            return (
+              <Row key={`${show.node.id}`} date={show.node.date} venue={show.node.venue} city={show.node.city} flex />
+            )
+          })
+        }
+        </tbody>
+      </table>
+    </Layout>
+  )
+}
 
 export default Shows
