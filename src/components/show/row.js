@@ -6,7 +6,7 @@ const Row = (props) => (
       {props.date}
     </td>
     <td className="pt-4 pb-1">
-      {props.venue}
+      <a href={`${props.website}`}>{props.venue}</a>
     </td>
     <td className="pt-4 pb-1">
       {props.city}

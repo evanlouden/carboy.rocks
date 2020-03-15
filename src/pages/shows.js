@@ -20,10 +20,10 @@ const Shows = () => {
           node {
             id
             venue
-            url
             id
             date
             city
+            website
           }
         }
       }
@@ -40,13 +40,14 @@ const Shows = () => {
       </div>
       <table className="mx-auto w-full sm:w-2/3 md:w-1/2">
         <tbody>
-        {
-          showsData.map((show) => {
-            return (
-              <Row key={`${show.node.id}`} date={show.node.date} venue={show.node.venue} city={show.node.city} flex />
-            )
-          })
-        }
+          {
+            showsData.map((show) => {
+              let { id, date, venue, city, website } = show.node
+              return (
+                <Row key={id} date={date} venue={venue} city={city} website={website} flex />
+              )
+            })
+          }  
         </tbody>
       </table>
     </Layout>

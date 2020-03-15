@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Carboy - Jamband`,
+    description: `Carboy is a Boston based jamband that mixes Stax era Soul and Psychedlic Funk with a touch of Afrobeat.`,
+    author: `Carboy`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,22 +10,22 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `shows`,
-        path: `${__dirname}/src/data/shows`
-      }
+        path: `${__dirname}/src/data/shows`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `bios`,
-        path: `${__dirname}/src/data/bios`
-      }
+        path: `${__dirname}/src/data/bios`,
+      },
     },
     `gatsby-transformer-remark`,
     `gatsby-transformer-csv`,
@@ -40,7 +40,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
       },
     },
     {
@@ -49,11 +49,17 @@ module.exports = {
         fonts: [
           {
             family: `Bungee Shade`,
-            variants: [`400`]
-          }
-        ]
-      }
-    }
+            variants: [`400`],
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "carboy.rocks",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

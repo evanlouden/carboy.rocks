@@ -5,22 +5,21 @@ const Row = ({ bio, index, instrument, name, fluid }) => {
   const isEven = number => number % 2 === 0
   const isRowEven = isEven(index)
   const flexDirection = isRowEven ? "sm:flex-row-reverse" : "sm:flex-row"
-  const backgroundColor = isRowEven ? "200" : "800"
-  const textColor = isRowEven ? "800" : "200"
-  const textDirection = isRowEven ? null : "sm:text-right"
+  const imageFlexDirection = !isRowEven ? "sm:justify-start" : "sm:justify-end"
+  const textDirection = isRowEven ? "sm:text-left" : "sm:text-right"
   const imageStyle = { "width": "100%" }
   return (
-    <div className={`bg-gray-${backgroundColor}`}>
-      <div className={`sm:w-2/3 max-w-screen-xl mx-auto py-12 px-4 sm:px-6 sm:py-16 sm:px-8 sm:flex sm:items-center sm:justify-around ${flexDirection}`}>
-        <h2 className={`${textDirection} text-gray-${textColor} text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10`}>
+    <div className={`bg-gray-900 border-b border-white md:w-3/4 max-w-screen-xl mx-auto p-8 md:p-12 sm:flex ${flexDirection}`}>
+      <div className="mx-auto sm:mx-10 text-center w-1/2 pb-8 sm:py-0">
+        <h2 className={`${textDirection} text-gray-100 text-3xl leading-9 font-extrabold sm:text-4xl`}>
           {name}
           <br />
-          <span className="text-indigo-600">{instrument}</span>
+          <span className="text-yellow-500 text-xl">{instrument}</span>
         </h2>
-        <div className="mt-8 flex sm:flex-shrink-0 sm:mt-0">
-          <div className="inline-flex rounded-md shadow w-48">
-            <Img style={imageStyle} fluid={fluid} />
-          </div>
+      </div>
+      <div className={`mx-auto sm:mx-10 w-1/2 pb-8 sm:py-0 justify-around flex ${imageFlexDirection}`}>
+        <div className="inline-flex rounded-md shadow w-48 border border-yellow-500 border-thin">
+          <Img className="rounded" style={imageStyle} fluid={fluid} />
         </div>
       </div>
     </div>
