@@ -5,14 +5,14 @@ import SEO from "../components/seo"
 const Songs = () => (
   <Layout>
     <SEO title="Songs" />
-    <div className="container max-w-screen-sm p-4 mx-auto">
+    <div className="container max-w-screen-sm p-8 mx-auto">
       <div className="flex flex-col p-4 text-gray-800 bg-gray-200 rounded">
         <div className="flex justify-around">
           <div className="text-2xl text-center">
             Big O
           </div>
         </div>
-        <div className="flex mx-auto">
+        <div className="flex mx-auto mb-8">
           <audio controls src="http://carboy.rocks/audio/big_o.mp3"></audio>
         </div>
         <div className="flex justify-around">
@@ -30,14 +30,14 @@ const Songs = () => (
       </div>
     </div>
 
-    <div className="container max-w-screen-sm p-4 mx-auto">
+    <div className="container max-w-screen-sm p-8 mx-auto">
       <div className="flex flex-col p-4 text-gray-800 bg-gray-200 rounded">
         <div className="flex justify-around">
           <div className="text-2xl text-center">
             Ricksha
           </div>
         </div>
-        <div className="flex mx-auto">
+        <div className="flex mx-auto mb-8">
           <audio controls src="http://carboy.rocks/audio/ricksha.mp3"></audio>
         </div>
         <div className="flex justify-around">
@@ -50,14 +50,14 @@ const Songs = () => (
       </div>
     </div>
 
-    <div className="container max-w-screen-sm p-4 mx-auto">
+    <div className="container max-w-screen-sm p-8 mx-auto">
       <div className="flex flex-col p-4 text-gray-800 bg-gray-200 rounded">
         <div className="flex justify-around">
           <div className="text-2xl text-center">
             I5
           </div>
         </div>
-        <div className="flex mx-auto">
+        <div className="flex mx-auto mb-8">
           <audio controls src="http://carboy.rocks/audio/i5.mp3"></audio>
         </div>
         <div className="flex justify-around">
@@ -75,14 +75,14 @@ const Songs = () => (
       </div>
     </div>
 
-    <div className="container max-w-screen-sm p-4 mx-auto">
+    <div className="container max-w-screen-sm p-8 mx-auto">
       <div className="flex flex-col p-4 text-gray-800 bg-gray-200 rounded">
         <div className="flex justify-around">
           <div className="text-2xl text-center">
             Colorado
           </div>
         </div>
-        <div className="flex mx-auto">
+        <div className="flex mx-auto mb-8">
           <audio controls src="http://carboy.rocks/audio/colorado.mp3"></audio>
         </div>
         <div className="flex justify-around">
@@ -100,14 +100,14 @@ const Songs = () => (
       </div>
     </div>
 
-    <div className="container max-w-screen-sm p-4 mx-auto">
+    <div className="container max-w-screen-sm p-8 mx-auto">
       <div className="flex flex-col p-4 text-gray-800 bg-gray-200 rounded">
         <div className="flex justify-around">
           <div className="text-2xl text-center">
             Dirty Spoons
           </div>
         </div>
-        <div className="flex mx-auto">
+        <div className="flex mx-auto mb-8">
           <audio controls src="http://carboy.rocks/audio/dirty_spoons.mp3"></audio>
         </div>
         <div className="flex justify-around">
