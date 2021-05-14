@@ -44,15 +44,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Bungee Shade`,
-            variants: [`400`],
-          },
+          `Bungee Shade\:400`,
         ],
-      },
+        display: 'swap'
+      }
     },
     {
       resolve: `gatsby-plugin-s3`,
@@ -63,5 +61,13 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /images\/svgs/
+        }
+      }
+    }
   ],
 }
