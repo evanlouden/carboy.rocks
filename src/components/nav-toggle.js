@@ -1,12 +1,12 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTimes, faBars } from '@fortawesome/pro-regular-svg-icons'
+import Bars from './../images/svgs/bars.svg';
+import Times from './../images/svgs/times.svg';
 
 const NavToggle = (props) => {
   if (props.isOpen) {
-    return <FontAwesomeIcon className="fa-lg text-gray-300" icon={faTimes} />
+    return <Times className="w-8 h-8 text-gray-300 fill-current" />
   } else {
-    return <FontAwesomeIcon className="fa-lg text-gray-300" icon={faBars} />
+    return <Bars className="w-8 h-8 text-gray-300 fill-current" />
   }
 }
 
