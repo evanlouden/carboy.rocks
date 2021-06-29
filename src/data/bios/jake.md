@@ -1,8 +1,8 @@
 ---
-name: "Steven Watkins"
+name: "Jake Sacks"
 bio: ""
 instrument: "Bass"
 image: ../../images/evan.jpg
-order: 4
-publish: false
+order: 6
+publish: true
 ---

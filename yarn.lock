@@ -6772,7 +6772,7 @@ gatsby-transformer-sharp@^2.3.7:
     semver "^7.3.4"
     sharp "^0.27.0"
 
-gatsby@^2.18.12:
+gatsby@^2.24.13:
   version "2.32.13"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.32.13.tgz#f4b1959b96d1fd853f9e6a2ce2451250e96bdeb4"
   integrity sha512-BYfiI/k+t8m/IzSkWZH8Cc0v7rJw6giSjG5sX25LWdfkQMqUvg/Gn6OC8BWwRPXnEwe7x0n5jbH+peO0p34ZHQ==
@@ -13964,7 +13964,7 @@ table@^5.2.3:
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
 
-tailwindcss@^2.1.0:
+tailwindcss@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.2.4.tgz#6a2e259b1e26125aeaa7cdc479963fd217c308b0"
   integrity sha512-OdBCPgazNNsknSP+JfrPzkay9aqKjhKtFhbhgxHgvEFdHy/GuRPo2SCJ4w1SFTN8H6FPI4m6qD/Jj20NWY1GkA==
