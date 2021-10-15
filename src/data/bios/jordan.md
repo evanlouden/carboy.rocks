@@ -1,8 +1,8 @@
 ---
-name: "Paul Schulteis"
+name: "Jordan Gravel"
 bio: ""
 instrument: "Keys"
 image: ../../images/evan.jpg
-order: 6
-publish: false
+order: 7
+publish: true
 ---

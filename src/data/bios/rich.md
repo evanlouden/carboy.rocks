@@ -1,8 +1,8 @@
 ---
-name: "Evan Louden"
+name: "Rich Wallner"
 bio: ""
-instrument: "Drums"
+instrument: "Saxophone"
 image: ../../images/evan.jpg
-order: 1
+order: 5
 publish: true
 ---

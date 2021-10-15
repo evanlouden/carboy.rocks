@@ -35,10 +35,10 @@ const Shows = () => {
   return (
     <Layout>
       <SEO title="Shows" />
-      <div className="mx-auto w-full sm:w-2/3 md:w-1/2 border-white border">
-        <Img className="picture" fluid={data.file.childImageSharp.fluid} />
+      <div className="w-full mx-auto border border-white sm:w-2/3 md:w-1/2">
+        {/* <Img className="picture" fluid={data.file.childImageSharp.fluid} /> */}
       </div>
-      <table className="mx-auto w-full sm:w-2/3 md:w-1/2">
+      <table className="w-full mx-auto sm:w-2/3 md:w-1/2">
         <tbody>
           {
             showsData.map((show) => {
@@ -47,7 +47,7 @@ const Shows = () => {
                 <Row key={id} date={date} venue={venue} city={city} website={website} flex />
               )
             })
-          }  
+          }
         </tbody>
       </table>
     </Layout>
