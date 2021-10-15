@@ -1,8 +1,6 @@
 ---
 name: "Todd Brunel"
-bio: ""
+bio: "Professional player and educator"
 instrument: "Saxophone"
 image: ../../images/evan.jpg
-order: 7
-publish: false
 ---

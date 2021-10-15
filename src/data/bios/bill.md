@@ -1,8 +1,6 @@
 ---
 name: "Bill Griffin"
-bio: ""
-instrument: "Trombone / Saxophone"
+bio: "Big fan of Trombone Shorty"
+instrument: "Trombone"
 image: ../../images/evan.jpg
-order: 3
-publish: true
 ---

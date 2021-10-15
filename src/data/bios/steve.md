@@ -1,8 +1,6 @@
 ---
 name: "Steven Watkins"
-bio: ""
+bio: "Engineer for Toast"
 instrument: "Bass"
 image: ../../images/evan.jpg
-order: 4
-publish: false
 ---
