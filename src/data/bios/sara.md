@@ -1,8 +1,6 @@
 ---
 name: "Sara Colb"
-bio: ""
+bio: "Singer for the Jody Grind and badass civil rights lawyer"
 instrument: "Vocals"
 image: ../../images/evan.jpg
-order: 4
-publish: true
 ---

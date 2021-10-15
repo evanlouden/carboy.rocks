@@ -1,8 +1,6 @@
 ---
 name: "Paul Schulteis"
-bio: ""
-instrument: "Keys"
+bio: "Keyboard player for Club D'elf"
+instrument: "Keyboards"
 image: ../../images/evan.jpg
-order: 6
-publish: false
 ---
