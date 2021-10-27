@@ -8,9 +8,9 @@ import SEO from "../components/seo"
 const Shows = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: {eq: "trumpet-player.jpg"}) {
+      file(relativePath: {eq: "band_new.jpg"}) {
         childImageSharp {
-          fluid(maxWidth: 500) {
+          fluid(maxWidth: 750) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -35,21 +35,24 @@ const Shows = () => {
   return (
     <Layout>
       <SEO title="Shows" />
-      <div className="mx-auto w-full sm:w-2/3 md:w-1/2 border-white border">
-        <Img className="picture" fluid={data.file.childImageSharp.fluid} />
+      <div className="w-full max-w-screen-md mx-auto">
+        <div className="border border-gray-500">
+          <Img className="bg-cover picture filter brightness-75" fluid={data.file.childImageSharp.fluid} />
+        </div>
+        <table className="w-full">
+          <tbody>
+            {
+              showsData.map((show) => {
+                let { id, date, venue, city, website } = show.node
+                return (
+                  <Row key={id} date={date} venue={venue} city={city} website={website} flex />
+                )
+              })
+            }
+          </tbody>
+        </table>
+
       </div>
-      <table className="mx-auto w-full sm:w-2/3 md:w-1/2">
-        <tbody>
-          {
-            showsData.map((show) => {
-              let { id, date, venue, city, website } = show.node
-              return (
-                <Row key={id} date={date} venue={venue} city={city} website={website} flex />
-              )
-            })
-          }  
-        </tbody>
-      </table>
     </Layout>
   )
 }
