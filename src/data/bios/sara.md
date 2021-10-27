@@ -2,7 +2,7 @@
 name: "Sara Colb"
 bio: ""
 instrument: "Vocals"
-image: ../../images/evan.jpg
+image: ../../images/sara.jpg
 order: 4
 publish: true
 ---

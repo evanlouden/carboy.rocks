@@ -2,7 +2,7 @@
 name: "Rich Wallner"
 bio: ""
 instrument: "Saxophone"
-image: ../../images/evan.jpg
+image: ../../images/rich.jpg
 order: 5
 publish: true
 ---

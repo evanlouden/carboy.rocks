@@ -14,9 +14,9 @@ const Row = ({ bio, instrument, name, fluid }) => {
           {bio}
         </div>
       </div>
-      {/* <div className="w-48 mx-auto">
+      <div className="w-48 mx-auto">
         <Img className="w-full" fluid={fluid} />
-      </div> */}
+      </div>
     </div>
   )
 }
