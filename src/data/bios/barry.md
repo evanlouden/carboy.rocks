@@ -1,7 +1,7 @@
 ---
-name: "Barry Fleischer"
-bio: "He's the guitar player in the band."
-instrument: "Guitar"
+name: Barry Fleischer
+bio:
+instrument: Guitar
 image: ../../images/barry.jpg
 order: 2
 publish: true
