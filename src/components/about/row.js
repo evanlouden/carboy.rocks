@@ -1,5 +1,5 @@
 import React from "react"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 import PropTypes from 'prop-types';
 
 const Row = ({ bio, instrument, name, fluid }) => {
@@ -15,10 +15,10 @@ const Row = ({ bio, instrument, name, fluid }) => {
         </div>
       </div>
       <div className="w-48 mx-auto">
-        <Img className="w-full" fluid={fluid} />
+        <GatsbyImage image={fluid} className="w-full" />
       </div>
     </div>
-  )
+  );
 }
 
 Row.propTypes = {
