@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "It's alive!"
+title: "the Carboy | Fermenting the funk since before the pandemic"
 ---
 
 <header class="p-4 border-b border-gray-500 bg-zinc-100">
@@ -12,23 +12,8 @@ title: "It's alive!"
   <section>
     <h2 class="mb-2 text-2xl font-light text-center underline text">SHOWS</h2>
     <div class="grid gap-4">
-      <div class="grid grid-rows-3 gap-1">
-        <span class="text-center">Saturday, January 24 @ 10:00pm</span>
-        <a href="https://www.ploughandstars.com/" class="text-xl font-bold text-center text-yellow-600 hover:underline">Plough and Stars</a>
-        <div class="flex items-center justify-center space-x-2">
-          <a href="https://maps.app.goo.gl/FfbiZ8hJwG1oPTGF7"
-            class="flex items-center justify-center space-x-2 text-gray-800 hover:underline">
-            <span>Cambridge, MA</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-              class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-            </svg>
-          </a>
-
-        </div>
-      </div>
+      {% include show_info.html date="Sat. January 24th @ 10:00pm" venue_name="Plough and Stars" venue_city="Cambridge, MA" venue_url="" google_url="https://maps.app.goo.gl/FfbiZ8hJwG1oPTGF7" %}
+      {% include show_info.html date="Sat. April 25th @ 8:00 pm" venue_name="The Square Root" venue_city="Roslindale, MA" venue_url="" google_url="https://maps.app.goo.gl/v2B48MRBuy3kXqq86" %}
       <section class="space-y-4 text-center">
         <span>
           Booking: <a href="mailto:carboyrocks@gmail.com" class="italic sm:text-xl hover:underline">carboyrocks@gmail.com</a>
