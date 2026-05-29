@@ -14,7 +14,7 @@ title: "the Carboy | Song list"
     <h1 class="text-3xl font-bold mb-6">Song Resources</h1>
     <div class="space-y-4">
       {% for song in site.data.songs %}
-        {% include song_info.html title=song.title song_key=song.song_key recording_url=song.recording_url lead_sheet=song.lead_sheet b_flat_chart=song.b_flat_chart e_flat_chart=song.e_flat_chart bass_clef_chart=song.bass_clef_chart %}
+        {% include song_info.html title=song.title song_key=song.song_key recording_url=song.recording_url lead_sheet=song.lead_sheet b_flat_chart=song.b_flat_chart e_flat_chart=song.e_flat_chart trombone_chart=song.trombone_chart %}
       {% endfor %}
     </div>
   </div>
