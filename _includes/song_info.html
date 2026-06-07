@@ -2,11 +2,11 @@
 
   <!-- Title + Key -->
   <div class="flex items-center justify-between mb-4">
-    <h2 class="text-xl font-semibold">
+    <h2 class="text-lg font-semibold">
       {{ include.title }}
     </h2>
 
-    <span class="text-xl font-bold text-gray-700 bg-gray-100 px-3 py-1 rounded-full border border-brand-gold">
+    <span class="text-lg font-bold text-gray-700 bg-gray-100 px-3 py-1 rounded-full border border-brand-gold">
       {{ include.song_key }}
     </span>
   </div>
@@ -18,15 +18,15 @@
       Recording
     </a>
     <a href="{{ '/assets/charts/lead/' | append: include.lead_sheet | relative_url }}"
-      class="text-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
+      class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
       Lead
     </a>
     <a href="{{ '/assets/charts/b_flat/' | append: include.b_flat_chart | relative_url }}"
-      class="text-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
+      class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
       B-flat
     </a>
     <a href="{{ '/assets/charts/trombone/' | append: include.trombone_chart | relative_url }}"
-      class="text-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
+      class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
       Trombone
     </a>
   </div>
