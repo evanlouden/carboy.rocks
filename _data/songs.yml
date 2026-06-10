@@ -1,45 +1,10 @@
-- title: Ricksha
-  song_key: C7
-  recording_url: https://youtu.be/-0sxLvkFU14?si=jg4vcD92HFd6QHS1
-  lead_sheet: ricksha_lead.pdf
-  b_flat_chart: ricksha_b_flat.pdf
+- title: I-5
+  song_key: C min
+  recording_url:
+  lead_sheet: i_5_lead.pdf
+  b_flat_chart: i_5_b_flat.pdf
   e_flat_chart:
-  trombone_chart: ricksha_trombone.pdf
-- title: Baby I Love You
-  song_key: G7
-  recording_url: https://youtu.be/_HUTDOem-og?si=eeJZzMGtOrPOBPLP
-  lead_sheet: baby_i_love_you_lead.pdf
-  b_flat_chart: baby_i_love_you_b_flat.pdf
-  e_flat_chart:
-  trombone_chart: baby_i_love_you_trombone.pdf
-- title: Mean Man
-  song_key: D♭
-  recording_url: https://youtu.be/FmBs5HX3vwA?si=BRfU3Fd76mmYZWPe
-  lead_sheet: mean_man_lead.pdf
-  b_flat_chart: mean_man_b_flat.pdf
-  e_flat_chart:
-  trombone_chart: mean_man_trombone.pdf
-- title: Heart on a String
-  song_key: B♭
-  recording_url: https://www.youtube.com/watch?v=i9IbvxBWUOE
-  lead_sheet: heart_on_a_string_lead.pdf
-  b_flat_chart: heart_on_a_string_b_flat.pdf
-  e_flat_chart:
-  trombone_chart: heart_on_a_string_trombone.pdf
-- title: Colorado
-  song_key: E min
-  recording_url: https://youtu.be/N8xUoZSeo_Q?si=p9uX2UPCpwtUqZ18&t=107
-  lead_sheet: colorado_lead.pdf
-  b_flat_chart: colorado_b_flat.pdf
-  e_flat_chart:
-  trombone_chart: colorado_trombone.pdf
-- title: Cramp Your Style
-  song_key: G♭
-  recording_url: https://youtu.be/ABHgTKnxewc?si=W7GrFTKstzK9PAcU
-  lead_sheet: cramp_your_style_lead.pdf
-  b_flat_chart: cramp_your_style_b_flat.pdf
-  e_flat_chart:
-  trombone_chart: cramp_your_style_trombone.pdf
+  trombone_chart: i_5_trombone.pdf
 - title: Miracle Man
   song_key: F
   recording_url: https://youtu.be/uDE6cDeqKTg?si=DPOjSv3-smmzLpXe
@@ -47,6 +12,83 @@
   b_flat_chart: miracle_man_b_flat.pdf
   e_flat_chart:
   trombone_chart: miracle_man_trombone.pdf
+- title: I Gets My Boogie On
+  song_key: C
+  recording_url: https://www.youtube.com/watch?v=PrPIcRvfqaM
+  lead_sheet: song_lead.pdf
+  b_flat_chart: song_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: song_trombone.pdf
+- title: Gonna Git Ya
+  song_key: F
+  recording_url: https://youtu.be/8l3OIOBLJW8?si=UZJrRJGmNMMdVfxJ
+  lead_sheet: gonna_git_ya_lead.pdf
+  b_flat_chart: gonna_git_ya_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: gonna_git_ya_trombone.pdf
+- title: Heart on a String
+  song_key: B♭
+  recording_url: https://www.youtube.com/watch?v=i9IbvxBWUOE
+  lead_sheet: heart_on_a_string_lead.pdf
+  b_flat_chart: heart_on_a_string_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: heart_on_a_string_trombone.pdf
+- title: Hip Hug-her
+  song_key: B♭
+  recording_url: https://youtu.be/1v1iZUiBJiQ?si=W46lGLaCaqwikxQQ
+  lead_sheet: hip_hug_her_lead.pdf
+  b_flat_chart: hip_hug_her_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: hip_hug_her_trombone.pdf
+- title: You're No Good
+  song_key: C
+  recording_url: https://youtu.be/_xUisVuPt8M?si=in7JrORWWUrLk-62
+  lead_sheet: youre_no_good_lead.pdf
+  b_flat_chart: youre_no_good_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: youre_no_good_trombone.pdf
+- title: Cramp Your Style
+  song_key: G♭
+  recording_url: https://youtu.be/ABHgTKnxewc?si=W7GrFTKstzK9PAcU
+  lead_sheet: cramp_your_style_lead.pdf
+  b_flat_chart: cramp_your_style_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: cramp_your_style_trombone.pdf
+- title: I'll Be Waiting
+  song_key: D
+  recording_url: https://youtu.be/ttfKlH2xkwo?si=mSXrnw3942N3HLpd
+  lead_sheet: ill_be_waiting_lead.pdf
+  b_flat_chart: ill_be_waiting_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: ill_be_waiting_trombone.pdf
+- title: Sidecar
+  song_key: A min
+  recording_url: https://youtu.be/NJOE5vkjId8?si=Ci3TSegc5st_UKTe
+  lead_sheet: sidecar_lead.pdf
+  b_flat_chart: sidecar_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: sidecar_trombone.pdf
+- title: The Thrill is Gone
+  song_key: A♭ min
+  recording_url: https://youtu.be/sZfzdklFtf0?si=Vvw-rbYEbdblULid
+  lead_sheet: the_thrill_is_gone_lead.pdf
+  b_flat_chart: the_thrill_is_gone_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: the_thrill_is_gone_trombone.pdf
+- title: Mean Man
+  song_key: D♭
+  recording_url: https://youtu.be/FmBs5HX3vwA?si=BRfU3Fd76mmYZWPe
+  lead_sheet: mean_man_lead.pdf
+  b_flat_chart: mean_man_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: mean_man_trombone.pdf
+- title: Baby I Love You
+  song_key: G7
+  recording_url: https://youtu.be/_HUTDOem-og?si=eeJZzMGtOrPOBPLP
+  lead_sheet: baby_i_love_you_lead.pdf
+  b_flat_chart: baby_i_love_you_b_flat.pdf
+  e_flat_chart:
+  trombone_chart: baby_i_love_you_trombone.pdf
 - title: Playing With My Emotions
   song_key: A min
   recording_url: https://youtu.be/3qQJZ5dm904?si=Zbkv59zBCVd-Qno4
@@ -61,6 +103,12 @@
   b_flat_chart: big_o_b_flat.pdf
   e_flat_chart:
   trombone_chart: big_o_trombone.pdf
+- title: Pushin On
+  song_key: D
+  recording_url: https://youtu.be/qhEdJncolsc?si=R9ll7yK8M_1z9oBV
+  b_flat_chart:
+  e_flat_chart:
+  trombone_chart:
 - title: I Can't Stand the Rain
   song_key: A♭
   recording_url: https://youtu.be/SmGig_b2QLI?si=ZmGWObxqglhmLQOM
@@ -68,17 +116,10 @@
   b_flat_chart: i_cant_stand_the_rain_b_flat.pdf
   e_flat_chart:
   trombone_chart: i_cant_stand_the_rain_trombone.pdf
-- title: The Thrill is Gone
-  song_key: A♭ min
-  recording_url: https://youtu.be/sZfzdklFtf0?si=Vvw-rbYEbdblULid
-  lead_sheet: the_thrill_is_gone_lead.pdf
-  b_flat_chart: the_thrill_is_gone_b_flat.pdf
-  e_flat_chart:
-  trombone_chart: the_thrill_is_gone_trombone.pdf
 - title: Just a Prisoner
   song_key: E min
   recording_url: https://youtu.be/HHI88EVBZzc?si=DwMEq2q9PycyrRXP
   lead_sheet: just_a_prisoner_lead.pdf
   b_flat_chart: just_a_prisoner_b_flat.pdf
   e_flat_chart:
-  trombone_chart:
+  trombone_chart: just_a_prisoner_trombone.pdf

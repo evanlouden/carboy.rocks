@@ -14,18 +14,22 @@
   <!-- Buttons -->
   <div class="grid grid-cols-3 gap-2">
     <a href="{{ include.recording_url }}"
-      class="col-span-3 text-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-green text-white hover:bg-gray-100 transition">
+      target="_blank" rel="noopener noreferrer"
+      class="col-span-3 text-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-green text-white hover:bg-gray-100 hover:text-black transition">
       Recording
     </a>
     <a href="{{ '/assets/charts/lead/' | append: include.lead_sheet | relative_url }}"
+      target="_blank" rel="noopener noreferrer"
       class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
       Lead
     </a>
     <a href="{{ '/assets/charts/b_flat/' | append: include.b_flat_chart | relative_url }}"
+      target="_blank" rel="noopener noreferrer"
       class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
       B-flat
     </a>
     <a href="{{ '/assets/charts/trombone/' | append: include.trombone_chart | relative_url }}"
+      target="_blank" rel="noopener noreferrer"
       class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
       Trombone
     </a>
