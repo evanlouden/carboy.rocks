@@ -15,10 +15,10 @@
 - title: I Gets My Boogie On
   song_key: C
   recording_url: https://www.youtube.com/watch?v=PrPIcRvfqaM
-  lead_sheet: song_lead.pdf
-  b_flat_chart: song_b_flat.pdf
+  lead_sheet: i_gets_my_boogie_on_lead.pdf
+  b_flat_chart: i_gets_my_boogie_on_b_flat.pdf
   e_flat_chart:
-  trombone_chart: song_trombone.pdf
+  trombone_chart: i_gets_my_boogie_on_trombone.pdf
 - title: Gonna Git Ya
   song_key: F
   recording_url: https://youtu.be/8l3OIOBLJW8?si=UZJrRJGmNMMdVfxJ
@@ -106,9 +106,10 @@
 - title: Pushin On
   song_key: D
   recording_url: https://youtu.be/qhEdJncolsc?si=R9ll7yK8M_1z9oBV
-  b_flat_chart:
+  b_flat_chart: pushin_on_b_flat.pdf
+  lead_sheet: pushin_on_lead.pdf
   e_flat_chart:
-  trombone_chart:
+  trombone_chart: pushin_on_trombone.pdf
 - title: I Can't Stand the Rain
   song_key: A♭
   recording_url: https://youtu.be/SmGig_b2QLI?si=ZmGWObxqglhmLQOM
