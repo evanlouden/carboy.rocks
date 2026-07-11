@@ -56,14 +56,14 @@
   trombone_chart: hip_hug_her_trombone.pdf
 - title: You're No Good
   solos: Guitar
-  song_key: C
+  song_key: A min
   recording_url: https://youtu.be/_xUisVuPt8M?si=in7JrORWWUrLk-62
   lead_sheet: youre_no_good_lead.pdf
   b_flat_chart: youre_no_good_b_flat.pdf
   e_flat_chart:
   trombone_chart: youre_no_good_trombone.pdf
 - title: I Gets My Boogie On
-  solos: Keys, Sax
+  solos: Trombone, Keys
   song_key: C
   recording_url: https://www.youtube.com/watch?v=PrPIcRvfqaM
   lead_sheet: i_gets_my_boogie_on_lead.pdf
@@ -72,14 +72,14 @@
   trombone_chart: i_gets_my_boogie_on_trombone.pdf
 - title: I'll Be Waiting
   solos: None
-  song_key: D
+  song_key: A
   recording_url: https://youtu.be/ttfKlH2xkwo?si=mSXrnw3942N3HLpd
   lead_sheet: ill_be_waiting_lead.pdf
   b_flat_chart: ill_be_waiting_b_flat.pdf
   e_flat_chart:
   trombone_chart: ill_be_waiting_trombone.pdf
 - title: Sidecar
-  solos: Keys, Sax, Guitar
+  solos: Guitar, Sax
   song_key: A min
   recording_url: https://youtu.be/NJOE5vkjId8?si=Ci3TSegc5st_UKTe
   lead_sheet: sidecar_lead.pdf
