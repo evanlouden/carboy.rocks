@@ -20,12 +20,12 @@
   e_flat_chart:
   trombone_chart:
 - title: Colorado
-  song_key:
-  recording_url: bad
-  lead_sheet:
-  b_flat_chart:
+  song_key: E min
+  recording_url: https://www.youtube.com/watch?v=N8xUoZSeo_Q
+  lead_sheet: colorado_lead.pdf
+  b_flat_chart: colorado_b_flat.pdf
   e_flat_chart:
-  trombone_chart:
+  trombone_chart: colorado_trombone.pdf
 - title: Cramp Your Style
   song_key:
   recording_url: https://youtu.be/ABHgTKnxewc?si=W7GrFTKstzK9PAcU
