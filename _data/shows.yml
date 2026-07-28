@@ -1,9 +1,14 @@
-- date: Sat. July 11th @ 4:00pm
-  venue_name: McCarthy's & Toad
-  venue_city: Cambridge, MA
-  venue_url: https://www.mccarthystoad.com/
-  google_url: https://maps.app.goo.gl/azu5fo7w3eudm4Hq5
 - date: Sat. August 22th @ 8:00 pm
+  venue_name: The Square Root
+  venue_city: Roslindale, MA
+  venue_url: https://squarerootrozzie.com/
+  google_url: https://maps.app.goo.gl/v2B48MRBuy3kXqq86
+- date: Sat. November 7th @ 10:00 pm
+  venue_name: The Plough & Stars
+  venue_city: Cambridge, MA
+  venue_url: https://www.ploughandstars.com/
+  google_url: https://maps.app.goo.gl/tRgKwVGJgJo63NJfA
+- date: Fri. December 4th @ 8:00 pm
   venue_name: The Square Root
   venue_city: Roslindale, MA
   venue_url: https://squarerootrozzie.com/
