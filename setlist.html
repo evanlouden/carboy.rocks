@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "the Carboy | Song list"
+title: "the Carboy | Set list"
 ---
 
 <header class="p-4 border-b border-gray-500 bg-zinc-100">
@@ -9,13 +9,17 @@ title: "the Carboy | Song list"
 
 <main class="max-w-xl mx-auto mt-4">
   <div class="max-w-4xl mx-auto px-2 md:px-6">
-    <a href="/setlist"
+    <a href="/songs"
       class="mb-4 flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-white text-black hover:bg-gray-100 transition">
-      Set list >>>
+      Song list >>>
     </a>
-    <h1 class="text-3xl font-bold mb-6">Songs</h1>
+    <h1 class="text-3xl font-bold mb-6">Set list</h1>
     <div class="space-y-4">
-      {% for song in site.data.songs %}
+      {% assign songs = site.data.songs %}
+
+      {% for item in site.data.setlist %}
+        {% assign song = songs | where: "id", item.song | first %}
+
         {%
           include song_info.html
           title=song.title
@@ -24,6 +28,7 @@ title: "the Carboy | Song list"
           lead_sheet=song.lead_sheet
           b_flat_chart=song.b_flat_chart
           trombone_chart=song.trombone_chart
+          solos=item.solos
         %}
       {% endfor %}
     </div>
