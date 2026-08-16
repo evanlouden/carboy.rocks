@@ -42,11 +42,11 @@
   trombone_chart:
 - id: fire_marshal
   title: Fire Marshal
-  song_key:
+  song_key: D min
   recording_url: https://youtu.be/hmlj0QwdLoE?si=asKqJqF3Hz88HaoK
-  lead_sheet:
-  b_flat_chart:
-  trombone_chart:
+  lead_sheet: fire_marshal_lead.pdf
+  b_flat_chart: fire_marshal_b_flat.pdf
+  trombone_chart: fire_marshal_trombone.pdf
 - id: gonna_git_ya
   title: Gonna Git Ya
   song_key: F
