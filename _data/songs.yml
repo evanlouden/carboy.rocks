@@ -14,7 +14,7 @@
   trombone_chart: bad_kitty_trombone.pdf
 - id: big_o
   title: Big O
-  song_key:
+  song_key: D min
   recording_url: https://youtu.be/vPEMC3ePTjI?si=MZMQswganZWF0qzQ
   lead_sheet: big_o_lead.pdf
   b_flat_chart: big_o_b_flat.pdf
