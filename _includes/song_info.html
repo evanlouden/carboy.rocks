@@ -6,9 +6,11 @@
       {{ include.title }}
     </h2>
 
-    <span class="text-lg font-bold text-gray-700 bg-gray-100 px-3 py-1 rounded-full border border-brand-gold">
-      {{ include.song_key }} - {{ include.bpm }}
-    </span>
+    <a href="/tap">
+      <span class="text-lg font-bold text-gray-700 bg-gray-100 px-3 py-1 rounded-full border border-brand-gold">
+        {{ include.song_key }} - {{ include.bpm }}
+      </span>
+    </a>
   </div>
   <div class="pb-2">
     <span class="italic">{{ include.solos }}</span>
