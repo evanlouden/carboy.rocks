@@ -12,8 +12,11 @@ title: "Carboy | Fermenting the funk since before the pandemic"
   <section>
     <h2 class="mb-2 text-2xl font-light text-center underline text">SHOWS</h2>
     <div class="grid gap-4">
+      {% assign venues = site.data.venues %}
+
       {% for show in site.data.shows %}
-        {% include show_info.html date=show.date venue_name=show.venue_name venue_city=show.venue_city venue_url=show.venue_url google_url=show.google_url %}
+        {% assign venue = venues | where: "id", show.venue | first %}
+        {% include show_info.html date=show.date time=show.time venue_name=venue.name venue_city=venue.city venue_url=venue.url google_url=venue.google_url %}
       {% endfor %}
       <section class="space-y-4 text-center">
         <span>
