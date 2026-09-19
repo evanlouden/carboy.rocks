@@ -8,3 +8,8 @@
   city: Cambridge, MA
   url: https://www.ploughandstars.com/
   google_url: https://maps.app.goo.gl/tRgKwVGJgJo63NJfA
+- id: private
+  name: Private Event
+  city:
+  url:
+  google_url:
