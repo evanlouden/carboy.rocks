@@ -30,6 +30,22 @@
   lead_sheet: colorado_lead.pdf
   b_flat_chart: colorado_b_flat.pdf
   trombone_chart: colorado_trombone.pdf
+- id: cissy_strut
+  title: Cissy Strut
+  song_key: C
+  bpm:
+  recording_url: https://www.youtube.com/watch?v=MXI5Nuz6OHg
+  lead_sheet:
+  b_flat_chart:
+  trombone_chart:
+- id: cold_duck_time
+  title: Cold Duck Time
+  song_key:
+  bpm:
+  recording_url: https://youtu.be/y8YOLY4Tats?si=26GsumFujio0rZTb
+  lead_sheet:
+  b_flat_chart:
+  trombone_chart:
 - id: cramp_your_style
   title: Cramp Your Style
   song_key: G♭
@@ -43,6 +59,14 @@
   song_key:
   recording_url:
   bpm:
+  lead_sheet:
+  b_flat_chart:
+  trombone_chart:
+- id: dont_do_it
+  title: Don't Do It
+  song_key:
+  bpm:
+  recording_url: https://youtu.be/od2t2vOWgcE?si=XYfU24IhikymdFmt
   lead_sheet:
   b_flat_chart:
   trombone_chart:
@@ -88,12 +112,12 @@
   trombone_chart:
 - id: i_5
   title: I-5
-  song_key:
+  song_key: C7
   recording_url:
   bpm:
-  lead_sheet:
-  b_flat_chart:
-  trombone_chart:
+  lead_sheet: 1_5_lead.pdf
+  b_flat_chart: 1_5_b_flat.pdf
+  trombone_chart: 1_5_trombone.pdf
 - id: i_cant_stand_the_rain
   title: I Can't Stand the Rain
   song_key: A♭
@@ -103,6 +127,14 @@
   lead_sheet: i_cant_stand_the_rain_lead.pdf
   b_flat_chart: i_cant_stand_the_rain_b_flat.pdf
   trombone_chart: i_cant_stand_the_rain_trombone.pdf
+- id: if_you_want_me_to_stay
+  title: If You Want Me To Stay
+  song_key:
+  bpm:
+  recording_url: https://youtu.be/gZFabOuF4Ps?si=oEqJCw4imnXfPtHK
+  lead_sheet:
+  b_flat_chart:
+  trombone_chart:
 - id: i_gets_my_boogie_on
   title: I Gets My Boogie On
   song_key: C
@@ -135,6 +167,14 @@
   lead_sheet: just_a_prisoner_lead.pdf
   b_flat_chart: just_a_prisoner_b_flat.pdf
   trombone_chart: just_a_prisoner_trombone.pdf
+- id: let_the_music_take_your_mind
+  title: Let the Music Take Your Mind
+  song_key:
+  bpm:
+  recording_url: https://youtu.be/f2y3vttWeNU?si=qWyugkTn-kWEUvBQ
+  lead_sheet:
+  b_flat_chart:
+  trombone_chart:
 - id: mean_man
   title: Mean Man
   song_key: D♭
@@ -157,6 +197,14 @@
   song_key: F minor
   bpm: 82
   recording_url: https://youtu.be/k5CNYsmAJwI?si=hDWH2ZOsgfJosbBY
+  lead_sheet:
+  b_flat_chart:
+  trombone_chart:
+- id: oddball
+  title: Oddball
+  song_key:
+  bpm:
+  recording_url:
   lead_sheet:
   b_flat_chart:
   trombone_chart:
@@ -184,6 +232,14 @@
   lead_sheet: ricksha_lead.pdf
   b_flat_chart: ricksha_b_flat.pdf
   trombone_chart: ricksha_trombone.pdf
+- id: red_baron
+  title: Red Baron
+  song_key:
+  bpm:
+  recording_url: https://youtu.be/ptsgQ1uYqkA?si=sTtvouhw4ZBoCLqO
+  lead_sheet:
+  b_flat_chart:
+  trombone_chart:
 - id: sidecar
   title: Sidecar
   song_key: A min
@@ -192,6 +248,14 @@
   lead_sheet: sidecar_lead.pdf
   b_flat_chart: sidecar_b_flat.pdf
   trombone_chart: sidecar_trombone.pdf
+- id: sneaking_sally_through_the_alley
+  title: Sneaking Sally Through the Alley
+  song_key:
+  bpm:
+  recording_url: https://youtu.be/W4q9_XlsU3Y?si=cz0eAK5djKFC3c5t
+  lead_sheet:
+  b_flat_chart:
+  trombone_chart:
 - id: the_thrill_is_gone
   title: The Thrill is Gone
   song_key: A♭ Minor

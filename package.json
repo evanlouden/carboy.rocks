@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "serve": "bundle exec jekyll serve"
+  },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/postcss": "^4.0.6",
