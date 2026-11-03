@@ -18,13 +18,11 @@ title: "the Carboy | Song list"
       {% for song in site.data.songs %}
         {%
           include song_info.html
+          song_id=song.id
           title=song.title
           song_key=song.song_key
           bpm=song.bpm
           recording_url=song.recording_url
-          lead_sheet=song.lead_sheet
-          b_flat_chart=song.b_flat_chart
-          trombone_chart=song.trombone_chart
         %}
       {% endfor %}
     </div>

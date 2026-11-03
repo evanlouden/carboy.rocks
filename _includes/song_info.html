@@ -1,5 +1,15 @@
 <div class="border rounded-xl p-4 shadow-sm bg-white">
 
+  {% assign lead_filename = include.song_id | append: '_lead.pdf' %}
+  {% assign b_flat_filename = include.song_id | append: '_b_flat.pdf' %}
+  {% assign trombone_filename = include.song_id | append: '_trombone.pdf' %}
+  {% assign lead_path = '/assets/charts/lead/' | append: lead_filename %}
+  {% assign b_flat_path = '/assets/charts/b_flat/' | append: b_flat_filename %}
+  {% assign trombone_path = '/assets/charts/trombone/' | append: trombone_filename %}
+  {% assign lead_file = site.static_files | where: 'path', lead_path | first %}
+  {% assign b_flat_file = site.static_files | where: 'path', b_flat_path | first %}
+  {% assign trombone_file = site.static_files | where: 'path', trombone_path | first %}
+
   <!-- Title + Key -->
   <div class="flex items-center justify-between mb-4">
     <h2 class="text-lg font-semibold">
@@ -23,20 +33,38 @@
       class="col-span-3 text-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-green text-white hover:bg-gray-100 hover:text-black transition">
       Recording
     </a>
-    <a href="{{ '/assets/charts/lead/' | append: include.lead_sheet | relative_url }}"
-      target="_blank" rel="noopener noreferrer"
-      class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
-      Lead
-    </a>
-    <a href="{{ '/assets/charts/b_flat/' | append: include.b_flat_chart | relative_url }}"
-      target="_blank" rel="noopener noreferrer"
-      class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
-      B-flat
-    </a>
-    <a href="{{ '/assets/charts/trombone/' | append: include.trombone_chart | relative_url }}"
-      target="_blank" rel="noopener noreferrer"
-      class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
-      Trombone
-    </a>
+    {% if lead_file %}
+      <a href="{{ lead_path | relative_url }}" target="_blank" rel="noopener noreferrer"
+        class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
+        Lead
+      </a>
+    {% else %}
+      <span class="flex justify-center px-4 py-3 rounded-lg border border-gray-400 border-2 bg-gray-200 text-gray-500 cursor-not-allowed"
+        title="Lead chart missing" aria-label="Lead chart missing">
+        Lead — missing
+      </span>
+    {% endif %}
+    {% if b_flat_file %}
+      <a href="{{ b_flat_path | relative_url }}" target="_blank" rel="noopener noreferrer"
+        class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
+        B-flat
+      </a>
+    {% else %}
+      <span class="flex justify-center px-4 py-3 rounded-lg border border-gray-400 border-2 bg-gray-200 text-gray-500 cursor-not-allowed"
+        title="B-flat chart missing" aria-label="B-flat chart missing">
+        B-flat — missing
+      </span>
+    {% endif %}
+    {% if trombone_file %}
+      <a href="{{ trombone_path | relative_url }}" target="_blank" rel="noopener noreferrer"
+        class="flex justify-center px-4 py-3 rounded-lg border border-gray-500 border-2 bg-brand-gold text-black hover:bg-gray-100 transition">
+        Trombone
+      </a>
+    {% else %}
+      <span class="flex justify-center px-4 py-3 rounded-lg border border-gray-400 border-2 bg-gray-200 text-gray-500 cursor-not-allowed"
+        title="Trombone chart missing" aria-label="Trombone chart missing">
+        Trombone — missing
+      </span>
+    {% endif %}
   </div>
 </div>
