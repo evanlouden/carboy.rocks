@@ -127,6 +127,11 @@
   song_key:
   bpm:
   recording_url: https://youtu.be/f2y3vttWeNU?si=qWyugkTn-kWEUvBQ
+- id: lotta_love
+  title: Lotta Love
+  song_key:
+  bpm:
+  recording_url: https://youtu.be/FOwzEACO0D4?si=KTyHvf76eynmhK1y
 - id: mean_man
   title: Mean Man
   song_key: D♭
@@ -187,8 +192,18 @@
   song_key: A♭ Minor
   bpm: 115
   recording_url: https://youtu.be/sZfzdklFtf0?si=Vvw-rbYEbdblULid
+- id: two_faced_world
+  title: Two Faced World
+  song_key:
+  bpm:
+  recording_url: https://youtu.be/mCSZGHn2Ffg?si=y7sj3UX9aJ8rCbHo
 - id: youre_no_good
   title: You're No Good
   song_key: A min
   bpm: 105
   recording_url: https://youtu.be/_xUisVuPt8M?si=in7JrORWWUrLk-62
+- id: what_a_man
+  title: What a Man
+  song_key:
+  bpm:
+  recording_url: https://youtu.be/-ayrECoSDOs?si=EwzpOBlczJ1snJ6w
