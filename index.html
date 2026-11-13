@@ -3,34 +3,34 @@ layout: default
 title: "Carboy | Fermenting the funk since before the pandemic"
 ---
 
-<header class="p-4 border-b border-gray-500 bg-zinc-100">
-  <img src="/assets/images/carboy_logo.svg" alt="Band Logo" class="w-64 mx-auto md:w-96">
+<header class="site-header">
+  <div class="site-header-inner">
+    <a href="/" aria-label="Carboy home">
+      <img src="/assets/images/carboy_logo.svg" alt="Carboy" class="site-mark">
+    </a>
+  </div>
 </header>
 
 <!-- Tour Dates -->
-<main class="max-w-xl mx-auto mt-4">
-  <section>
-    <h2 class="mb-2 text-2xl font-light text-center underline text">SHOWS</h2>
-    <div class="grid gap-4">
+<main class="page-wrap">
+  <section id="shows">
+    <p class="eyebrow">Come see us live</p>
+    <div class="show-list">
       {% assign venues = site.data.venues %}
 
       {% for show in site.data.shows %}
         {% assign venue = venues | where: "id", show.venue | first %}
-        {% include show_info.html date=show.date time=show.time venue_name=venue.name venue_city=venue.city venue_url=venue.url google_url=venue.google_url %}
+        {% include show_info.html month=show.month day=show.day time=show.time venue_name=venue.name venue_city=venue.city venue_url=venue.url %}
       {% endfor %}
-      <section class="space-y-4 text-center">
-        <span>
-          Booking: <a href="mailto:carboyrocks@gmail.com" class="italic sm:text-xl hover:underline">carboyrocks@gmail.com</a>
-        </span>
-      </section>
-
     </div>
-    <h4 class="text-xl text-center">
-      <br />
-    </h4>
+    <section class="booking">
+      <span class="eyebrow">Booking</span><br>
+      <a href="mailto:carboyrocks@gmail.com">carboyrocks@gmail.com</a>
+    </section>
   </section>
 
-  <section class="max-w-xl mx-auto">
+  <section>
+    <p class="eyebrow mb-4">Recently on the feed</p>
     <blockquote class="mx-auto instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DceUPz-mrnH/"
       data-instgrm-version="14" style="width:100%; max-width:540px;">
     </blockquote>
@@ -40,6 +40,8 @@ title: "Carboy | Fermenting the funk since before the pandemic"
 </main>
 
 <!-- Footer -->
-<footer class="p-6 mt-12 text-sm text-center text-gray-500 bg-white border-t border-gray-200">
-  <p>&copy; 2026 Carboy</p>
+<footer class="site-footer mt-12">
+  <div class="site-footer-inner">
+    <p>&copy; 2026 Carboy // Fermenting the funk since before the pandemic</p>
+  </div>
 </footer>

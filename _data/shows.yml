@@ -1,12 +1,16 @@
-- date: Fri. December 4th
+- month: Dec
+  day: 4
   time: 8:00 pm
   venue: square_root
-- date: Sat. January 9th
+- month: Jan
+  day: 9
   time: 6:00 pm
   venue: private
-- date: Sat. February 6th
+- month: Feb
+  day: 6
   time: 10:00 pm
   venue: plough_and_stars
-- date: Sat. March 27th
+- month: Mar
+  day: 27
   time: 8:00 pm
   venue: square_root
